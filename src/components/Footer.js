@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
 
 export default class Footer extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     return (

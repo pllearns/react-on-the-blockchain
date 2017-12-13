@@ -35,11 +35,11 @@ class App extends Component {
   }
 
     storeWord = () => {
-      return this.setState({word: contract.set(this.word)})
+      return this.setState({word: contract.set(this.state.word)})
     }
 
     getWord = () => {
-      return this.state.word
+      return contract.get(this.state.word)
     }
 
     getBalance = () => {

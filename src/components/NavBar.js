@@ -7,9 +7,6 @@ import {
 } from 'react-bootstrap';
 
 export default class NavBar extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   render() {
     return (
