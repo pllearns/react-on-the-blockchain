@@ -28,7 +28,10 @@ class App extends Component {
       gasPrice: null
     }
     this.storeWord = this.storeWord.bind(this)
-
+    this.getWord = this.getWord.bind(this)
+    this.getBalance = this.getBalance.bind(this)
+    this.getGasPrice = this.getGasPrice.bind(this)
+    this.showAccount = this.showAccount.bind(this)
   }
 
     storeWord = () => {
@@ -61,7 +64,10 @@ class App extends Component {
           getWord={this.getWord}
           getBalance={this.getBalance}
           getGasPrice={this.getGasPrice}
-          showAccount={this.showAccount} 
+          showAccount={this.showAccount}
+          balance={this.state.accountBalance} 
+          word={this.state.word}
+          gasPrice={this.state.gasPrice}
           />
         <Footer />
       </div>
