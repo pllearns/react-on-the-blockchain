@@ -36,4 +36,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Oakland Blockchain Developers
 * Brandon Gilchrist
 * Rachel Ralston
-* Stephen Grider
+
